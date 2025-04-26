@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     GreetingText(
                         message = "Happy Birthday Fauzan!",
                         from = "From Ahmad",
-                        modifier = Modifier.padding(8.dp)
+                        modifier = Modifier.padding(innerPadding).padding(8.dp)
                     )
                 }
             }
